@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "demo": "npx playwright test tests/demo/sampletest.spec.ts",
+    "login": "npx playwright test tests/functional/login.spec.ts --headed",
+    "book-appointment": "npx playwright test tests/functional/book-appointment.spec.ts --headed",
     "demo:firefox": "npx playwright test tests/demo/sampletest.spec.ts --project=firefox"
   },
   "keywords": [

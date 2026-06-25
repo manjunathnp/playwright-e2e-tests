@@ -10,3 +10,8 @@ test("Should load home page with correct title", async ({ page }) => {
   //3. Assert header text
   await expect(page.locator("//h1")).toHaveText("CURA Healthcare Service");
 });
+
+test("basic test",{tag: "@smoke"}, async({ page }) => {
+  // Test Steps...
+  
+})
